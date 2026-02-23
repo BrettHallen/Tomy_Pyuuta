@@ -1,5 +1,4 @@
 # TOMY Pyūta Multi Cartridge
-
 Original repository (Japanese):<br>
 https://github.com/yanataka60/PYUTA-GBASIC-Multi-Cartridge
 
@@ -96,5 +95,6 @@ Write the ROM images to each 27512 starting at the following addresses:
 Up to **eight different ROM images** can be selected.
 
 ## Acknowledgements
-Thank you very much to Inufutoさま for releasing so many wonderful games.
-Thank you to Enriさま for publishing detailed technical information about the ぴゅう太.
+Thank you very much to Inufutoさま for releasing so many wonderful games.<br>
+Thank you to Enriさま for publishing detailed technical information about the ぴゅう太.<br>
+And thanks to yanataka60 for kindly making his design available.
