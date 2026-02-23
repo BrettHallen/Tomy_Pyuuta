@@ -1,27 +1,27 @@
 # TOMY Pyūta Multi Cartridge
 
-Original repository (Japanese):
+Original repository (Japanese):<br>
 https://github.com/yanataka60/PYUTA-GBASIC-Multi-Cartridge
 
 ![Multi Cartridge](https://github.com/yanataka60/PYUTA-Multi-Cartridge/blob/main/JPEG/TITLE.jpg)
 
 Inufutoさん has generously published many self-made programs for retro PCs, and for the ぴゅう太 (Pyūta) they are released as ROM images.
 
-So I created a cartridge that allows you to easily switch between those ROM images using DIP switches and enjoy them on real hardware.
+So [I (yanataka60)](https://github.com/yanataka60) created a cartridge that allows you to easily switch between those ROM images using DIP switches and enjoy them on real hardware.
 
 The published ROM images come in two types: (>8000～) and (>4000～).  
-Use the **16K(8K)ROM Multi Cartridge** for (>8000～) images and the **32KROM Multi Cartridge** for (>4000～) images.
+Use the **16KB (8KB) ROM Multi Cartridge** for (>8000～) images and the **32KB ROM Multi Cartridge** for (>4000～) images.
 
-**Note:** To use the 32KROM Multi Cartridge on the original (first-generation) ぴゅう太, a game adapter equivalent is required.  
-Inserting the 32KROM Multi Cartridge directly into the original ぴゅう太 cartridge slot will **not** work.
+**Note:** To use the 32KB ROM Multi Cartridge on the original (first-generation) ぴゅう太, a game adapter equivalent is required.  
+Inserting the 32KB ROM Multi Cartridge directly into the original ぴゅう太 cartridge slot will **not** work.
 
-The 16K(8K)ROM Multi Cartridge has been tested working on ぴゅう太 and ぴゅう太 mk2.  
-The 32KROM Multi Cartridge has been tested working on ぴゅう太 + game adapter equivalent, and ぴゅう太 mk2.  
+The 16KB (8KB) ROM Multi Cartridge has been tested working on ぴゅう太 and ぴゅう太 mk2.  
+The 32KB ROM Multi Cartridge has been tested working on ぴゅう太 + game adapter equivalent, and ぴゅう太 mk2.  
 Both types are expected to work on the ぴゅう太 Jr. as well.
 
 Of course, you will need a separate ROM programmer/writer device to burn the images into the EPROMs.
 
-## 16K(8K)ROM Multi Cartridge
+## 16KB (8KB) ROM Multi Cartridge
 
 ### Schematic
 Please refer to `PYUTA16k.pdf` in the KiCad folder.
@@ -47,19 +47,18 @@ Please refer to `PYUTA16k.pdf` in the KiCad folder.
 
 ### Writing to ROM
 Write the ROM images to each 27512 starting at the following addresses:
-
 - 0000h
 - 4000h
 - 8000h
 - C000h
 
 ### ROM Image Selection
-DIP switch positions 1 and 2 select the bank: 0000h / 4000h / 8000h / C000h  
-DIP switch positions 3 and 4 select which ROM chip (U1–U4) is active.
+- DIP switch positions 1 and 2 select the bank: 0000h / 4000h / 8000h / C000h  
+- DIP switch positions 3 and 4 select which ROM chip (U1–U4) is active.
 
 Up to **16 different ROM images** can be selected.
 
-## 32KROM Multi Cartridge
+## 32KB ROM Multi Cartridge
 
 ### Schematic
 Please refer to `PYUTA32k.pdf` in the KiCad folder.
@@ -87,17 +86,15 @@ Please refer to `PYUTA32k.pdf` in the KiCad folder.
 
 ### Writing to ROM
 Write the ROM images to each 27512 starting at the following addresses:
-
 - 0000h
 - 8000h
 
 ### ROM Image Selection
-DIP switch position 1 selects the bank: 0000h / 8000h  
-DIP switch positions 2 and 3 select which ROM chip (U1–U4) is active.
+- DIP switch position 1 selects the bank: 0000h / 8000h  
+- DIP switch positions 2 and 3 select which ROM chip (U1–U4) is active.
 
-Up to **8 different ROM images** can be selected.
+Up to **eight different ROM images** can be selected.
 
 ## Acknowledgements
 Thank you very much to Inufutoさま for releasing so many wonderful games.
-
 Thank you to Enriさま for publishing detailed technical information about the ぴゅう太.
