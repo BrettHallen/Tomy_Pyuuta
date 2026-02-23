@@ -38,9 +38,9 @@ Please refer to `PYUTA16k.pdf` in the KiCad folder.
 | U5   | 74LS138                          | 1   |                                    |
 | U6   | 74LS32                           | 1   |                                    |
 | SW1  | DIP switch 4-position            | 1   | e.g. Akizuki EDS104SZ etc.         |
-| R1–R4| Carbon resistor 10 kΩ            | 4   |                                    |
-| C1–C4, C6, C7 | Multilayer ceramic capacitor 0.1 µF | 6 | |
-| C5   | Electrolytic capacitor 16 V 100 µF | 1 | |
+| R1–R4| Carbon resistor 10KΩ             | 4   |                                    |
+| C1–C4, C6, C7 | Multilayer ceramic capacitor 100nF | 6 | |
+| C5   | Electrolytic capacitor 16V 100µF | 1 | |
 |      | 28-pin IC socket                 | 4   |                                    |
 |      | 16-pin IC socket                 | 1   | Optional                           |
 |      | 14-pin IC socket                 | 1   | Optional                           |
@@ -77,9 +77,9 @@ Please refer to `PYUTA32k.pdf` in the KiCad folder.
 | U7   | 74LS04                           | 1   |                                    |
 | U8   | 74LS08                           | 1   |                                    |
 | SW1  | DIP switch 4-position            | 1   | Akizuki EDS104SZ etc. (only 3 bits used, 3-position switch is also OK) |
-| R2–R4| Carbon resistor 10 kΩ            | 3   |                                    |
-| C1–C4, C6–C9 | Multilayer ceramic capacitor 0.1 µF | 8 | |
-| C5   | Electrolytic capacitor 16 V 100 µF | 1 | |
+| R2–R4| Carbon resistor 10KΩ            | 3   |                                    |
+| C1–C4, C6–C9 | Multilayer ceramic capacitor 100nF | 8 | |
+| C5   | Electrolytic capacitor 16V 100µF | 1 | |
 |      | 28-pin IC socket                 | 4   |                                    |
 |      | 16-pin IC socket                 | 1   | Optional                           |
 |      | 14-pin IC socket                 | 3   | Optional                           |
