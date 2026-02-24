@@ -11,3 +11,4 @@ Pyuta_Game_Adaptor/fp-lib-table
 *.lck
 *.bak
 *.kicad_prl
+/Pyuta_IO_Expansion_Breakout/Pyuta_IO_Expansion_Breakout-backups
