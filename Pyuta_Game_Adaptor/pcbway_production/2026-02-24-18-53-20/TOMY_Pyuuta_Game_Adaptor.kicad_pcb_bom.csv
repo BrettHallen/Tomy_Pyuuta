@@ -1,0 +1,4 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+C1,1,100µF,CP_Radial_D5.0mm_P2.50mm,,,,tht,Polarized capacitor
+J1,1,Tomy Pyūta I/O Port,Tomy_Pyuta_IO_Port,,,,tht,
+J2,1,Tomy Pyūta Cartridge,Tomy_Pyūta_Cartridge,,,,tht,
