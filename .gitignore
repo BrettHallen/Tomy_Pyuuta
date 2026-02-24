@@ -3,3 +3,10 @@ PYUTA-Multi-Cartridge/Kicad/16K/fp-info-cache
 PYUTA-Multi-Cartridge/Kicad/16K/fp-lib-table
 PYUTA-Multi-Cartridge/Kicad/32K/fp-info-cache
 /PYUTA-Multi-Cartridge/Kicad/32K/PYUUTA32k-backups
+/PYUTA-Multi-Cartridge/Kicad/16K/PYUUTA16k-backups
+Pyuta_Game_Adaptor/fp-info-cache
+Pyuta_Game_Adaptor/fp-lib-table
+/Pyuta_Game_Adaptor/TOMY_Pyuuta_Game_Adaptor-backups
+*.kicad_prl
+*.lck
+*.bak
