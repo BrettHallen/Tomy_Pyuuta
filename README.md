@@ -10,6 +10,9 @@ Sorry about the mixed use of:
 - Mk 2
 - mkII
 
+## [Japanese G-BASIC Statements](/Japanese_G-BASIC)
+My attempt at making sense of the unique Japanese version of BASIC (日本語G-BASIC) on the original ぴゅう太.
+
 ## [Game Adaptor](/Pyuta_Game_Adaptor)
 My attempt at a homebrew version of the Pyūta Game Adaptor seeing as most of the information seems to have been lost.<br>
 
