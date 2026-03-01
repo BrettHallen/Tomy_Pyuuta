@@ -1,11 +1,11 @@
-# Tomy ぴゅう太
+# Tomy Pyūta (トミーぴゅう太)
 Information about the Tomy Pyūta (TP1000), Pyūta Mk II (TP1007) and Pyūta Jr. (TP2001).  This computer was also seen in the West as the Tomy Tutor, but I don't have one of those and I'm sure there's plenty of English-language information already easily found.
 
 Sorry about the mixed use of:
-- ぴゅう太
+- ぴゅう太 (pyuuta)
 - Pyuuta
 - Pyuta
-- Pyūta
+- Pyūta (pyuuta)
 - Mk II
 - Mk 2
 - mkII
