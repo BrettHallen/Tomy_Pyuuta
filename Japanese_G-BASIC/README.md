@@ -1,0 +1,1 @@
+# Japanese G-BASIC Statements
