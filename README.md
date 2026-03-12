@@ -6,6 +6,7 @@ Sorry about the mixed use of:
 - Pyuuta
 - Pyuta
 - Pyūta (pyuuta)
+- Puuta (on motherboard)
 - Mk II
 - Mk 2
 - mkII
