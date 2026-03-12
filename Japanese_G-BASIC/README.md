@@ -46,7 +46,9 @@ Writes a 16-bit value to draw on the top two lines of the specified cell.<br>
 This is a little bit weird (in my head):<br>
 ```
 マワレ <line number of NEXT> <variable name> = <initial value> カラ <end value> カンカク <step value>
+...
 <statements to loop>
+...
 トジル
 ```
 Restating:<br>
