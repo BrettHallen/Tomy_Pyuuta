@@ -9,6 +9,9 @@ Sorry about the mixed use of:
 - Mk II
 - Mk 2
 - mkII
+- Mark 2
+- Mark II
+- etc.
 
 ![The TP1000](/Images/Tomy_Pyuuta_TP1000_small.png)
 
