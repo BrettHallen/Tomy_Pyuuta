@@ -2,6 +2,8 @@
 
 Work in progress (1/Mar/2026).<br>
 
+Listed alphabetically by English key word.<br>
+
 ## ANIME アニメ
 This is the command for manipulating hardware sprites via the TMS9918A VDP.  There can be up to 32 sprites with a limit of four per horizontal scan line (to avoid flicker).<br>
 
