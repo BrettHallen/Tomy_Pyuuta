@@ -10,11 +10,20 @@ Sorry about the mixed use of:
 - Mk 2
 - mkII
 
+![The TP1000](/Images/Tomy_Pyuuta_TP1000_small.png)
+
+## YouTube Videos
+- [Part 1: Power On](https://youtu.be/n1GbW3sMFAQ)
+
 ## [Japanese G-BASIC Statements](/Japanese_G-BASIC)
 My attempt at making sense of the unique Japanese version of BASIC (日本語G-BASIC) on the original ぴゅう太.
 
 ## [Universal Power Supply](/Tomy_Pyuta_Power_Supply)
-The Japanese ぴゅう太 is designed for a 100VAC input.  The power supply outputs ±5VDC and +12VDC.<br>
+The Japanese ぴゅう太 is designed for a 100VAC input.<br>
+
+The power supply outputs regulated +12VDC (via an LM7812), regulated -5VDC (via a TA78L005AP) and unregulated +5VDC (about +7.8V unloaded, 5.3V under load).  Yes, that is not a mistake ... the regulated -5V rail uses a 7805.<br>
+
+The power LED is also connected to the -5V rail.<br>
 
 I have designed a simple replacement as we use 240VAC here in Australia.<br>
 
@@ -33,6 +42,7 @@ The Game Adaptor allows the original Pyūta (TP1000) to run 32KB cartridges desi
 ## Useful links
 - [Floodgap Systems](https://www.floodgap.com/retrobits/tomy/)
 - [Cartridge archive](https://www.classicplastic.net/helpline/)
+- [Leaded Solder's Blog](https://www.leadedsolder.com/2023/03/14/tomy-pyuuta-pickup-keyboard-power-switch-repair.html)
 
 ## [Recovered Info](/Recovered_Info)
 Useful information I've found from either Japanese-language websites (so not easy for the non-Japanese to find) or from vanished websites that have been lost.  I absolutely do not claim any credit for the useful info contained.<br>
