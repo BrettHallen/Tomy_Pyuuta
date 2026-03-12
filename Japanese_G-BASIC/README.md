@@ -7,13 +7,15 @@ Listed alphabetically by English key word.<br>
 ## ANIME アニメ
 This is the command for manipulating hardware sprites via the TMS9918A VDP.  There can be up to 32 sprites with a limit of four per horizontal scan line (to avoid flicker).<br>
 
-```アニメ <sprite number> = イチ(y,x)```
+```アニメ <sprite number> = イチ(y,x)```<br>
+
 Display the specified sprite at coordinates (x,y).<br>
 The X coordinate is 1-256 and Y coordinate is 1-192.<br>
 Set the Y coordinate to 193 to hide the sprite.<br>
 Uses the ICHI function to set the first location.<br>
 
-```アニメ <sprite 1> = アニメ <sprite 2>```
+```アニメ <sprite 1> = アニメ <sprite 2>```<br>
+
 Copy sprite 1 to sprite 2's location.
 
 ## CELL セル
@@ -21,15 +23,18 @@ Copy sprite 1 to sprite 2's location.
 
 The screen is divided into a grid of 8x8 pixel cells, giving a 32x24 cell layout, numbered from 1 (top left) to 768 (bottom right).  The セル command lets programs manipulate these cells as building blocks for backgrounds, maps or simple animations.<br>
 
-```セル(from cell number) = セル(to cell number)```
+```セル(from cell number) = セル(to cell number)```<br>
+
 Copy graphics from cell to cell.<br>
 
-```<variable> = セル(cell number)```
+```<variable> = セル(cell number)```<br>
+
 Read the cell bit pattern into the variable.<br>
 It returns a 16-bit value which represents the top two lines (16 pixels) of the cell's bitmap.  The foreground bits are set to 1.<br>
 This is useful for collision detection, reading map data or checking what is at a position.<br>
 
-```セル(cell number) = <variable>```
+```セル(cell number) = <variable>```<br>
+
 Writes a 16-bit value to draw on the top two lines of the specified cell.<br>
 
 ## FOR/TO/STEP/NEXT マワレ/カラ/カンカク/トジル
@@ -60,14 +65,14 @@ An example:<br>
 ## GETX ヨコ
 - ヨコ = 横 (yoko), horizontal
 
-```<variable name> = ヨコ(sprite number)```
+```<variable name> = ヨコ(sprite number)```<br>
 
 Get the current X coordinate (1-256) of the specified sprite.<br>
 
 ## GETY タテ
 - タテ = 縦 (tate), vertical
 
-```<variable name> = タテ(sprite number)```
+```<variable name> = タテ(sprite number)```<br>
 
 Get the current Y coordinate (1-192, 193 is off-screen) of the specified sprite.<br>
 
@@ -129,7 +134,8 @@ The variables will hold the status:
 ## RND ランスウ
 - ランスウ = 乱数 (ransū), random number
 
-```<variable name> = ランスウ(limit)```
+```<variable name> = ランスウ(limit)```<br>
+
 Assign a random number between 0 and \<limit\> to the variable.<br>
 
 ## SOUND オト
