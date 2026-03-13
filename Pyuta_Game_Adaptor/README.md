@@ -1,8 +1,19 @@
-# Tomy Pyūta Game Adaptor (ぴゅう太専用ゲーム アダプター)
+# Tomy Pyūta Game Adaptor<br>(ぴゅう太専用ゲーム アダプター)
 
 The Game Adaptor was designed to allow the original Tomy Pyūta (TP1000) to play 32KB cartridges designed for the Pyūta Mk II (TP1007) and Pyūta Jr. (TP2001).<br>
 
-The adaptor is entirely passive, there are no active components.<br>
+The adaptor is entirely passive, there are no active components ... although there is allocation for a 74LS00 and 74LS138, both unpopulated.<br>
+
+The blurb from the box:<br>
+> How To Use And Precautions
+> 1. Insert it into the expansion port on the back of the ぴゅう太 unit.  The expansion port is covered with two screws, so remove the screws with a screwdriver and remove the cover.
+> 2. First, insert the game cartridge marked with "*" into the cartridge slot on the top of the Game Adaptor.
+> 3. With the cartridge still inserted, connect the Game Adaptor to the expansion port.  Make sure the power switch is in the OFF position when doing this.
+> 4. After connecting correctly, turn the power switch on.
+> 5. Please note that inserting or removing cartridges while the Game Adaptor is connected to the expansion port may cause damage.
+>
+> This adaptor is required when using game cartridges marked with a "*" on the ぴゅう太.<br>
+> (For the ぴゅう太 Jr. or ぴゅう太 mkII, the Game Adaptor is not necessary)
 
 It connects to the 50-pin I/O expansion port and provides a second 36-pin cartridge port that disables the internal ROM.  This is needed as the upper part of the 32KB ROM (0x4000 to 0x7FFF) would otherwise overlap the internal ROM:
 - 0x0000H – 0x3FFFH → first 16KB of cartridge ROM
