@@ -9,7 +9,8 @@
 		(date "24/FEB/2026")
 		(rev "A")
 		(company "Brett Hallen")
-		(comment 3 "To enable a 32KB cartridge to work on the original Pyūta TP1000")
+		(comment 2 "Not required for ぴゅう太 Jr. (TP2001) or ぴゅう太 mk2 (TP1007)")
+		(comment 3 "To enable a 32KB cartridge to work on the original ぴゅう太 or Tutor (TP1000)")
 		(comment 4 "Homebrew version of the Game Adaptor (ゲーム アダプター)")
 	)
 	(lib_symbols
@@ -1930,21 +1931,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NOTE!\nI am still pretty confused by the several dozen conflicting (in my mind) pinouts for the Western Tomy Tutor and the Japanese Pyūta.\nSo please don't treat my design as error free and tested (24/Feb/2026)."
-		(exclude_from_sim no)
-		(at 16.51 178.308 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6413d2fa-a765-4db2-b71c-fea3e1068a20")
-	)
-	(text_box "Looking at the front of the cartridge:\nPin 1 = back right\nPin 2 = front right\nPin 35 = back left\nPin 36 = front left\n... I think"
+	(text_box "Looking at the front of the cartridge:\nPin 1 = back right\nPin 2 = front right\nPin 35 = back left\nPin 36 = front left"
 		(exclude_from_sim no)
 		(at 143.51 116.84 0)
-		(size 40.64 15.24)
+		(size 39.37 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2008,10 +1998,6 @@
 	(no_connect
 		(at 113.03 55.88)
 		(uuid "38545b6f-6bff-4939-83f3-6eb5fe655814")
-	)
-	(no_connect
-		(at 115.57 138.43)
-		(uuid "3cc8155b-7a82-4ad9-97f0-120cace2c97c")
 	)
 	(no_connect
 		(at 113.03 111.76)
