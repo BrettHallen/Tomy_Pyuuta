@@ -16,8 +16,8 @@ The blurb from the box:<br>
 > (For the ぴゅう太 Jr. or ぴゅう太 mkII, the Game Adaptor is not necessary)
 
 It connects to the 50-pin I/O expansion port and provides a second 36-pin cartridge port that disables the internal ROM.  This is needed as the upper part of the 32KB ROM (0x4000 to 0x7FFF) would otherwise overlap the internal ROM:
-- 0x0000H – 0x3FFFH → first 16KB of cartridge ROM
-- 0x4000H – 0x7FFFH → second 16KB of cartridge ROM (internal ROM disabled)
+- 0x0000 – 0x3FFF → first 16KB of cartridge ROM
+- 0x4000 – 0x7FFF → second 16KB of cartridge ROM (internal ROM disabled)
 
 This is done by connecting cartridge pin 6 (J1-6p) to I/O port pin 35 (SELEXM) ... apparently.<br>
 
