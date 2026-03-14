@@ -1931,10 +1931,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Looking at the front of the cartridge:\nPin 1 = back right\nPin 2 = front right\nPin 35 = back left\nPin 36 = front left"
+	(text_box "Looking at the front of the cartridge:\nPin 1 = back right\nPin 2 = front right\nPin 35 = back left\nPin 36 = front left\n\nPart: TE Connectivity 5530843-3"
 		(exclude_from_sim no)
 		(at 143.51 116.84 0)
-		(size 39.37 11.43)
+		(size 39.37 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1951,10 +1951,10 @@
 		)
 		(uuid "4817a1c0-d6b5-4287-ad51-28122ecafa9f")
 	)
-	(text_box "Looking at the I/O port from the back:\nPin 1 = top left\nPin 2 = bottom left\nPin 49 = top right\nPin 50 = bottom right"
+	(text_box "Looking at the I/O port from the back:\nPin 1 = top left\nPin 2 = bottom left\nPin 49 = top right\nPin 50 = bottom right\n\nPart: EDAC 395-050-559-201"
 		(exclude_from_sim no)
 		(at 16.51 147.32 0)
-		(size 41.91 11.43)
+		(size 41.91 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
