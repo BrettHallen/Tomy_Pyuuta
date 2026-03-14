@@ -40,6 +40,8 @@ My attempt at a homebrew version of the Pyūta Game Adaptor seeing as most of th
 
 The Game Adaptor allows the original Pyūta (TP1000) to run 32KB cartridges designed for the Mk II (TP1007) and Jr. (TP2001).<br>
 
+![Game Adaptor original](/Images/Tomy_Pyuuta_Game_Adaptor_2_small.png)
+
 ## Sources
 - [yanataka60](https://github.com/yanataka60)
 
