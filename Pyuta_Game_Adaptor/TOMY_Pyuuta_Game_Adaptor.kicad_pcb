@@ -130,14 +130,14 @@
 	(net 40 "unconnected-(J1-V_{CC}-Pad50)")
 	(net 41 "unconnected-(J1-~{IAQ}-Pad47)")
 	(net 42 "unconnected-(J1-~{EXP1}-Pad39)")
-	(net 43 "unconnected-(J1-KILLROM-Pad48)")
+	(net 43 "/KILLROM")
 	(net 44 "unconnected-(J1-~{EXP2}-Pad40)")
 	(net 45 "unconnected-(J1-~{IOPORT}-Pad19)")
 	(net 46 "unconnected-(J1-~{EXM40}-Pad43)")
 	(net 47 "/~{MEMEN}")
 	(net 48 "unconnected-(J1-~{EXM00}-Pad42)")
 	(net 49 "unconnected-(J1-~{EXP3}-Pad41)")
-	(net 50 "unconnected-(J2-~{CROM0}-Pad35)")
+	(net 50 "/~{CROM0}")
 	(net 51 "unconnected-(J2-~{INT4}-Pad34)")
 	(net 52 "unconnected-(J2-SOUND-Pad33)")
 	(net 53 "unconnected-(J2-CRUIN-Pad36)")
@@ -761,9 +761,9 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "unconnected-(J2-~{CROM0}-Pad35)")
+			(net 50 "/~{CROM0}")
 			(pinfunction "~{CROM0}")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "86e22ad0-0440-405f-a0ed-bb5e811d7683")
 		)
 		(pad "36" thru_hole circle
@@ -1436,9 +1436,9 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "unconnected-(J1-KILLROM-Pad48)")
+			(net 43 "/KILLROM")
 			(pinfunction "KILLROM")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "b31696ea-09e5-44ae-be0b-8133d8a28f7a")
 		)
 		(pad "49" thru_hole circle
@@ -1494,10 +1494,9 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 0 3.75 0)
-			(layer "F.Fab")
-			(hide yes)
+		(property "Value" "KO"
+			(at 4.101627 -0.099994 180)
+			(layer "F.SilkS")
 			(uuid "efa4d4c5-1541-4bb3-80c6-87aba01237f6")
 			(effects
 				(font
@@ -1595,10 +1594,9 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 0 3.75 0)
-			(layer "F.Fab")
-			(hide yes)
+		(property "Value" "O"
+			(at -4.098373 -0.099994 0)
+			(layer "F.SilkS")
 			(uuid "19a68abf-07ad-466e-be6a-5a35ad2212a3")
 			(effects
 				(font
@@ -3053,10 +3051,9 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 0 3.75 0)
-			(layer "F.Fab")
-			(hide yes)
+		(property "Value" "KU"
+			(at 4.301627 0 0)
+			(layer "F.SilkS")
 			(uuid "f536b24a-77b1-42e8-81e5-43f93ec8a061")
 			(effects
 				(font
@@ -3146,7 +3143,7 @@
 			(at 0 -3.75 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1a36b9ca-deab-442f-800b-95d0cedd33eb")
+			(uuid "aa8c2883-d60b-4345-8ed1-8d2fdb71b98e")
 			(effects
 				(font
 					(size 1 1)
@@ -3154,11 +3151,10 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 0 3.75 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a104014a-0891-43d5-ac4a-2b1588d9a178")
+		(property "Value" "MI"
+			(at -4.098373 0.000006 0)
+			(layer "F.SilkS")
+			(uuid "95241747-bc3b-4c3e-9e96-012c09a72d10")
 			(effects
 				(font
 					(size 1 1)
@@ -3170,7 +3166,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddf2d76f-40e3-42d9-8bb0-01a14fe225d4")
+			(uuid "df713074-a480-4818-9c4f-970481d10f3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3178,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8afc2b95-50ea-4349-976d-81f11b09cfba")
+			(uuid "85d199ac-f2de-46a0-bda6-b607ed7347c1")
 			(effects
 				(font
 					(size 1.27 1.27)
