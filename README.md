@@ -49,6 +49,7 @@ The Game Adaptor allows the original Pyūta (TP1000) to run 32KB cartridges desi
 - [Floodgap Systems](https://www.floodgap.com/retrobits/tomy/)
 - [Cartridge archive](https://www.classicplastic.net/helpline/)
 - [Leaded Solder's Blog](https://www.leadedsolder.com/2023/03/14/tomy-pyuuta-pickup-keyboard-power-switch-repair.html)
+- [Classic Plastic (software)](https://www.classicplastic.net/helpline/)
 
 ## [Recovered Info](/Recovered_Info)
 Useful information I've found from either Japanese-language websites (so not easy for the non-Japanese to find) or from vanished websites that have been lost.  I absolutely do not claim any credit for the useful info contained.<br>
