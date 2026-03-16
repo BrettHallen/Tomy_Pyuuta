@@ -5,9 +5,9 @@ In no way am I claiming any ownership of this hard work, I am simply trying to e
 
 ## Enri's Page
 ### Pyuta TP1000
-[Original site](http://www43.tok2.com/home/cmpslv/Pyuuta/EnrPt.htm)
+[Original site](http://www43.tok2.com/home/cmpslv/Pyuuta/EnrPt.htm)<br>
 [Archive site](https://web.archive.org/web/20230603174319/http://www43.tok2.com/home/cmpslv/Pyuuta/EnrPt.htm)
 
 ### Pyuta Jr. TP2001
-[Original site](http://www43.tok2.com/home/cmpslv/PyuutaJR/EnrPtj.htm)
+[Original site](http://www43.tok2.com/home/cmpslv/PyuutaJR/EnrPtj.htm)<br>
 [Archive site](https://web.archive.org/web/20230403173507/http://www43.tok2.com/home/cmpslv/PyuutaJR/EnrPtj.htm)
