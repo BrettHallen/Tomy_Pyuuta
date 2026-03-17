@@ -1,6 +1,6 @@
-# Japanese G-BASIC Statements <br> (日本語G-BASICのステートメント)
+# Japanese G-BASIC Statements<br>日本語G-BASICのステートメント
 
-Work in progress (1/Mar/2026).<br>
+Work in progress (17/Mar/2026).<br>
 
 Listed alphabetically by English key word.<br>
 
@@ -37,6 +37,9 @@ This is useful for collision detection, reading map data or checking what is at 
 
 Writes a 16-bit value to draw on the top two lines of the specified cell.<br>
 
+## END オワリ
+- オワリ = 終わり (owari), end<br>
+
 ## FOR/TO/STEP/NEXT マワレ/カラ/カンカク/トジル
 - マワレ = 回れ (maware), loop/go around
 - カラ = から (kara), from
@@ -72,11 +75,21 @@ An example:<br>
 Get the current X coordinate (1-256) of the specified sprite.<br>
 
 ## GETY タテ
-- タテ = 縦 (tate), vertical
+- タテ = 縦 (tate), vertical<br>
 
 ```<variable name> = タテ(sprite number)```<br>
 
 Get the current Y coordinate (1-192, 193 is off-screen) of the specified sprite.<br>
+
+## GOSUB/RETURN ヲヨベ/カエレ
+- ヲヨベ = を呼べ (wo yobe), call/summon
+- カエレ = 帰れ (kaeru), return
+
+```
+<line number> ヲヨベ
+... <subroutine> ...
+カエレ
+```
 
 ## GOTO ニイケ
 - ニイケ = に行け (ni ike), go to<br>
@@ -118,14 +131,16 @@ The variables will hold the status:
 | 7 = left               ||
 | 8 = up & left          ||
 
-
 ## LET シキ
 - シキ = 式 (shiki), formula/expression/equation<br>
 
 ```シキ <variable name> = <value>```<br>
 
+## LOAD ロード
+- ロード (rōdo), load
+
 ## PRINT カケ
-- カケ = 書け (kake), write
+- カケ = 書け (kake), write<br>
 
 ```
 カケ <cell number>,"<string>"
@@ -134,11 +149,17 @@ The variables will hold the status:
 ```
 
 ## RND ランスウ
-- ランスウ = 乱数 (ransū), random number
+- ランスウ = 乱数 (ransū), random number<br>
 
 ```<variable name> = ランスウ(limit)```<br>
 
 Assign a random number between 0 and \<limit\> to the variable.<br>
+
+## RUN ジツコウ
+- ジツコウ = 実行 (jikkō), run
+
+## SAVE セーブ
+- セーブ (sēbu), save
 
 ## SOUND オト
 - オト = 音 (oto), sound
@@ -155,3 +176,6 @@ Assign a random number between 0 and \<limit\> to the variable.<br>
 - ニオン (nion, 2nd) = low buzz for error or invalid action/error
 - サンオン (sanon, 3rd) = ding for menu select or decision/success
 - シオン (shion, 4th) = explosion for hit/crash/effect
+
+## STOP トマレ
+- トマレ = 止まれ (tomare), stop
