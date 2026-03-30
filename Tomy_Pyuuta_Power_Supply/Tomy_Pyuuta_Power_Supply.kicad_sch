@@ -15,23 +15,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 5.08 0)
+			(property "Reference" "U1"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PSU5"
-				(at 5.08 5.08 0)
+			(property "Value" "+5V Regulator"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-3"
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -99,7 +99,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -117,7 +117,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)

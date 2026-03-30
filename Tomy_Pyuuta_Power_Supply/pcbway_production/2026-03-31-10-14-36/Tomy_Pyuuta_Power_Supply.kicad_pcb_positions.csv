@@ -1,0 +1,12 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+148.5,-91.0,90.0,top,C1,,,CP_Radial_D6.3mm_P2.50mm,100µF,tht
+148.5,-109.0,-90.0,top,C2,,,CP_Radial_D6.3mm_P2.50mm,100µF,tht
+155.25,-91.0,90.0,top,C3,,,C_Disc_D3.8mm_W2.6mm_P2.50mm,100nF,tht
+155.25,-111.75,90.0,top,C4,,,C_Disc_D3.8mm_W2.6mm_P2.50mm,100nF,tht
+97.25,-98.75,0.0,top,F1,,,Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal,T4A,tht
+77.5,-98.75,180.0,top,J1,,,PinHeader_1x02_P2.54mm_Vertical,Power In (+12VDC),tht
+171.42,-114.5,90.0,top,J2,,,PinHeader_1x04_P2.54mm_Vertical,Power Out,tht
+162.225,-82.25,90.0,top,J3,,,PinHeader_1x02_P2.54mm_Vertical,Power LED,tht
+170.25,-82.25,0.0,top,R1,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,200Ω,tht
+134.0,-90.25,0.0,top,U1,,,TO-220-3_Vertical,+5V Regulator,tht
+133.92,-110.25,0.0,top,U2,R-78CK5.0-0.5,,R78CK5005,-5V Regulator,tht
