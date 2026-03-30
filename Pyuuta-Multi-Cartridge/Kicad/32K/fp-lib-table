@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PYUUTA")(type "KiCad")(uri "${KIPRJMOD}/PYUUTA.pretty")(options "")(descr ""))
+)
