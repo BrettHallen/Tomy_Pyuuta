@@ -35,7 +35,7 @@ It takes a regulated 12VDC input (3-4A) and generates the required ±5VDC via sw
 
 ![Universal power supply](/Tomy_Pyuuta_Power_Supply/Tomy_Pyuuta_Power_Supply_3D_small.png)
 
-## [Game Adaptor](/Pyuta_Game_Adaptor)
+## [Game Adaptor](/Pyuuta_Game_Adaptor)
 My attempt at a homebrew version of the Pyūta Game Adaptor seeing as most of the information seems to have been lost.<br>
 
 The Game Adaptor allows the original Pyūta (TP1000) to run 32KB cartridges designed for the Mk II (TP1007) and Jr. (TP2001).<br>
