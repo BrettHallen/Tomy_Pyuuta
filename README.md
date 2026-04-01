@@ -17,8 +17,12 @@ Sorry about the mixed use of:
 ![The TP1000](/Images/Tomy_Pyuuta_TP1000_small.png)
 
 ## YouTube Videos
+### Pyūta (TP1000)
 - [Part 1: Power On](https://youtu.be/n1GbW3sMFAQ)
 - [Part 2: New Power Supply & Game Adaptor](https://youtu.be/_u84HEhmOtU)
+
+### Pyūta mkII (TP1007)
+- [Part 1: First Look](https://youtu.be/pd9VcPLzIxA)
 
 ## [Japanese G-BASIC Statements](/Japanese_G-BASIC)
 My attempt at making sense of the unique Japanese version of BASIC (日本語G-BASIC) on the original ぴゅう太.
