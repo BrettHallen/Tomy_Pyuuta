@@ -1,0 +1,3 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+J1,1,Conn_01x16,PinHeader_1x16_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J2,1,Conn_01x16,Tomy Pyuuta Keyboard,,,,tht,"Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
