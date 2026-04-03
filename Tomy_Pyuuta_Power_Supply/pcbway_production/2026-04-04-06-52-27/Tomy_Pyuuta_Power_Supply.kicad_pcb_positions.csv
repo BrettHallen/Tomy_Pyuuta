@@ -1,8 +1,8 @@
 ﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
 147.35,-86.05,-90.0,top,C1,,,CP_Radial_D6.3mm_P2.50mm,100µF,tht
-148.5,-109.0,-90.0,top,C2,,,CP_Radial_D6.3mm_P2.50mm,100µF,tht
+148.5,-105.1,-90.0,top,C2,,,CP_Radial_D6.3mm_P2.50mm,100µF,tht
 154.97,-86.05,-90.0,top,C3,,,C_Disc_D3.8mm_W2.6mm_P2.50mm,100nF,tht
-155.25,-111.75,90.0,top,C4,,,C_Disc_D3.8mm_W2.6mm_P2.50mm,100nF,tht
+154.97,-107.6,90.0,top,C4,,,C_Disc_D3.8mm_W2.6mm_P2.50mm,100nF,tht
 97.25,-98.75,0.0,top,F1,,,Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal,T4A,tht
 79.49,-98.4875,90.0,top,J1,,,JST_NV_B02P-NV_1x02_P5.00mm_Vertical,Power In (+12VDC),tht
 169.18,-112.72,0.0,top,J2,,,JST_NV_B04P-NV_1x04_P5.00mm_Vertical,Power Out,tht
