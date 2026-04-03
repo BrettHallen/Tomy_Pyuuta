@@ -16,7 +16,7 @@ Sorry about the mixed use of:
 
 ![The TP1000](/Images/Tomy_Pyuuta_TP1000_small.png)
 
-![The TP1007](/Images/Tomy_Pyuuta__mkII_TP1007_small.png)
+![The TP1007](/Images/Tomy_Pyuuta_mkII_TP1007_small.png)
 
 ## YouTube Videos
 ### Pyūta (TP1000)
