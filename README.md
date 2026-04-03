@@ -14,8 +14,10 @@ Sorry about the mixed use of:
 - Mark II
 - etc.
 
+### Pyūta TP1000
 ![The TP1000](/Images/Tomy_Pyuuta_TP1000_small.png)
 
+### Pyūta mkII TP1007
 ![The TP1007](/Images/Tomy_Pyuuta_mkII_TP1007_small.png)
 
 ## YouTube Videos
