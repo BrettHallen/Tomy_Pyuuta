@@ -2366,7 +2366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_NV_B04P-NV_1x04_P5.00mm_Vertical"
 			(at 175.26 73.66 0)
 			(effects
 				(font
@@ -3037,7 +3037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical"
 			(at 69.85 74.676 0)
 			(effects
 				(font
@@ -3105,7 +3105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 107.95 50.8 0)
 			(effects
 				(font
