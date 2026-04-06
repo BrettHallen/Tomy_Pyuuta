@@ -50,13 +50,14 @@ It seems that Tomy removed the baseband A/V output that was in the original TP10
 
 It seems to work okay!  I am planning to replace the TMS9918 with a [Pico9918](https://github.com/visrealm/pico9918) anyway.<br>
 
-| Component | Original value | Modified value | Notes                            |
-|-----------|----------------|----------------|----------------------------------|
-| R2        | 33Ω            | 75Ω            | Impedance matching               |
-| R3        | 33Ω            | 0Ω link        |                                  |
-| R4        | 560Ω           | 470Ω           | Values are close, don't bother?  |
-| R5        | 8.2Ω           | Ferrite bead   |                                  |
-| C4        | 330pF          | 100nF to GND   | Connect from Q1 collector to GND |
+| Component | Original value | Modified value | Notes                                               |
+|-----------|----------------|----------------|-----------------------------------------------------|
+| R2        | 33Ω            | 75Ω            | Impedance matching                                  |
+| R3        | 33Ω            | 0Ω link        |                                                     |
+| R4        | 560Ω           | 470Ω           | Values are close, don't bother?                     |
+| R5        | 8.2Ω           | Ferrite bead   |                                                     |
+| C4        | 330pF          | 100nF to GND   | Connect from Q1 collector to GND                    |
+| C49       | 47nF           | Remove         | 12V decoupling, not needed if RF modulator removed? |
 
 ## [Game Adaptor](/Pyuuta_Game_Adaptor)
 My attempt at a homebrew version of the Pyūta Game Adaptor seeing as most of the information seems to have been lost.<br>
