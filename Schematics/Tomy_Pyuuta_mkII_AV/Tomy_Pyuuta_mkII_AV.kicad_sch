@@ -2228,6 +2228,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Baseband video mod\n[1] R2 -> 75Ω\n[2] R3 -> 0Ω (remove & replace with link)\n[3] R4 -> 470Ω\n[4] R5 -> ferrite bead\n[5] C4 -> 100nF between Q1 collector & GND\n[6] C49 -> removed"
+		(exclude_from_sim no)
+		(at 96.52 134.62 0)
+		(size 49.53 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "45b0a3b6-6621-4a6c-9739-c22ff3f7977c")
+	)
 	(text_box "RF Modulator Inputs\nT1 = +12V\nT2 = AUDIO\nT3 = GND\nT4 = VIDEO"
 		(exclude_from_sim no)
 		(at 171.45 102.87 0)
