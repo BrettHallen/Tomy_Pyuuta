@@ -45,6 +45,19 @@ It takes a regulated 12VDC input (3-4A) and generates the required ±5VDC via sw
 
 ![Universal power supply](/Tomy_Pyuuta_Power_Supply/Tomy_Pyuuta_Power_Supply_3D_small.png)
 
+## Pyūta mkII Video Mod
+It seems that Tomy removed the baseband A/V output that was in the original TP1000 from the mkII, leaving it with just the RF modulated output.  I created a [quick schematic of the video output](/Schematics/Tomy_Pyuuta_mkII_AV) in the mkII to use as a basis, and found an [RC2014 expansion board that adds a TMS9918 video output](https://github.com/jblang/TMS9918A) which I could use as a reference.<br>
+
+It seems to work okay!  I am planning to replace the TMS9918 with a [Pico9918](https://github.com/visrealm/pico9918) anyway.<br>
+
+| Component | Original value | Modified value | Notes                            |
+|-----------|----------------|----------------|----------------------------------|
+| R2        | 33Ω            | 75Ω            | Impedance matching               |
+| R3        | 33Ω            | 0Ω link        |                                  |
+| R4        | 560Ω           | 470Ω           | Values are close, don't bother?  |
+| R5        | 8.2Ω           | Ferrite bead   |                                  |
+| C4        | 330pF          | 100nF to GND   | Connect from Q1 collector to GND |
+
 ## [Game Adaptor](/Pyuuta_Game_Adaptor)
 My attempt at a homebrew version of the Pyūta Game Adaptor seeing as most of the information seems to have been lost.<br>
 
