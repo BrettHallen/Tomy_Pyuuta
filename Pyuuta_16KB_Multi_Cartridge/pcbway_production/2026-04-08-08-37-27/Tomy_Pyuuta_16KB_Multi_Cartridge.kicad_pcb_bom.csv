@@ -1,0 +1,6 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+C1,1,100nF,C_Disc_D3.0mm_W1.6mm_P2.50mm,,,,tht,Unpolarized capacitor
+J1,1,Pyūta Cartridge,Tomy Pyūta Cartridge,,,,smt,
+RN1,1,10KΩ,R_Array_SIP6,,,,tht,"5 resistor network, star topology, bussed resistors, small symbol"
+SW1,1,Bank Select,SW_DIP_SPSTx05_Slide_9.78x14.88mm_W7.62mm_P2.54mm,,,,tht,"5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+U1,1,27C040,DIP-32_W15.24mm_LongPads,,,,tht,OTP EPROM 4 MiBit (512 Ki x 8)

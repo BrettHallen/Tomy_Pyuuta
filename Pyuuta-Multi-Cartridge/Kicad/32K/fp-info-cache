@@ -1,4 +1,4 @@
-27864540664491264
+27868090086259363
 8bits
 Amstrad_CPC_Disc_Conector_2x25_P2.54mm_Double
 Through hole straight pin header, 2x25, 2.54mm pitch, double rows
@@ -7321,6 +7321,13 @@ Teensy41
 0
 67
 67
+Clueless_Engineer
+Tomy Pyuuta Keyboard
+
+
+0
+16
+16
 Clueless_Engineer
 Transistor TO-225AA
 SOT-32 (TO-126)
@@ -97558,6 +97565,13 @@ Potentiometer vertical Vishay TS53YL
 0
 3
 3
+Potentiometer_THT
+PDB12M4251105BF
+PDB12-M4251-105BF-3
+Variable Resistor
+0
+5
+5
 Potentiometer_THT
 Potentiometer_ACP_CA6-H2,5_Horizontal
 Potentiometer, horizontal, ACP CA6-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
