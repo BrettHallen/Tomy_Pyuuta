@@ -1,0 +1,16 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+81.432,-68.108,90.0,top,D1,,,D_SOD-323,1N4148,smt
+92.354,-56.678,-90.0,top,D10,,,D_SOD-323,1N4148,smt
+83.464,-56.678,-90.0,top,D11,,,D_SOD-323,1N4148,smt
+81.432,-56.678,-90.0,top,D12,,,D_SOD-323,1N4148,smt
+83.464,-68.108,90.0,top,D2,,,D_SOD-323,1N4148,smt
+92.354,-68.108,90.0,top,D3,,,D_SOD-323,1N4148,smt
+90.322,-68.108,90.0,top,D4,,,D_SOD-323,1N4148,smt
+79.4,-68.108,90.0,top,D5,,,D_SOD-323,1N4148,smt
+88.29,-68.108,90.0,top,D6,,,D_SOD-323,1N4148,smt
+88.29,-56.678,-90.0,top,D7,,,D_SOD-323,1N4148,smt
+79.4,-56.678,-90.0,top,D8,,,D_SOD-323,1N4148,smt
+90.322,-56.678,-90.0,top,D9,,,D_SOD-323,1N4148,smt
+80.64,-61.0,180.0,bottom,J1,,,DSUB-9_Socket_Vertical_P2.77x2.84mm,Pyūta Joystick Port,tht
+80.64,-73.7,0.0,top,J2,,,DSUB-9_Pins_Vertical_P2.77x2.84mm,MSX Joystick A,tht
+80.64,-48.3,0.0,top,J3,,,DSUB-9_Pins_Vertical_P2.77x2.84mm,MSX Joystick B,tht

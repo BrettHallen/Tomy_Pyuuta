@@ -1,0 +1,5 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Sim.Device,Sim.Pins
+"D1, D10, D11, D12, D2, D3, D4, D5, D6, D7, D8, D9",12,1N4148,D_SOD-323,,,,smt,Diode,D,1=K 2=A
+J1,1,Pyūta Joystick Port,DSUB-9_Socket_Vertical_P2.77x2.84mm,,,,tht,"9-pin D-SUB connector, socket (female)",,
+J2,1,MSX Joystick A,DSUB-9_Pins_Vertical_P2.77x2.84mm,,,,tht,"9-pin D-SUB connector, pins (male)",,
+J3,1,MSX Joystick B,DSUB-9_Pins_Vertical_P2.77x2.84mm,,,,tht,"9-pin D-SUB connector, pins (male)",,
